@@ -5,7 +5,6 @@ class Solution {
         int[] answer;
         Map<String, Integer> map = new HashMap<>();
         List<String> sortedMap = null;
-        int idx = 0;
 
         // 1) 장르별 재생 횟수 비교 및 재생 횟수 순 정렬
         for(int i = 0 ; i < genres.length ; i++) {
