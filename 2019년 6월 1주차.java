@@ -30,7 +30,7 @@ class Solution
         int answer = 0;
         
         for(int i = 0 ; i <= s.length() ; i++) {
-            for(int j = i ; j <= s.length() ; j++) {
+            for(int j = s.length() ; j >= i ; j--) {
                 String str = s.substring(i, j);
                 
                 // 자른 문자열과 뒤집은 문자열이 동일하고, 기존에 찾은 것보다 길이가 더 긴 경우
