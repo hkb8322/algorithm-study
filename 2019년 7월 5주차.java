@@ -27,15 +27,13 @@ class Solution {
         {
             int second = 0;
             
-            if(i < (prices.length - 1)) {
-                for(int j = i + 1 ; j < prices.length ; j++) {
-                    second++;
-                    
-                    if(prices[j] < prices[i]) {
-                        break;
-                    }
-                }
-            }
+			for(int j = i + 1 ; j < prices.length ; j++) {
+				second++;
+				
+				if(prices[j] < prices[i]) {
+					break;
+				}
+			}
             
             answer[i] = second;
         }
