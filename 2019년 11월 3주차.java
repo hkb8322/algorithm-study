@@ -53,16 +53,16 @@ class Solution {
           
           answer = new int[n];
           
-		  // 원소 사이에 차이가 적어야 곱이 큼
+	  // 원소 사이에 차이가 적어야 곱이 큼
           quotient = s / n;
           remainder = s % n;
           
-		  // 각 원소에 몫을 동일하게 분배
+	  // 각 원소에 몫을 동일하게 분배
           for(int i = 0 ; i < n ; i++) {
               answer[i] = quotient;
           }
           
-		  // 나머지를 차례대로 분배
+	  // 나머지를 차례대로 분배
           for(int i = 0 ; remainder > 0 ; i++, remainder--) {
               answer[i % n]++;
           }
