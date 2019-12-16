@@ -21,6 +21,8 @@ operations	return
 입출력 예 설명
 16을 삽입 후 최댓값을 삭제합니다. 비어있으므로 [0,0]을 반환합니다.
 7,5,-5를 삽입 후 최솟값을 삭제합니다. 최대값 7, 최소값 5를 반환합니다.
+
+https://programmers.co.kr/learn/courses/30/lessons/42628
 */
 
 import java.util.*;
