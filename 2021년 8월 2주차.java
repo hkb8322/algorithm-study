@@ -23,17 +23,13 @@ class Result {
      */
 
     public static void extraLongFactorials(int n) {
-        BigInteger iResult = getIntToBigInteger(1);
+        BigInteger iResult = BigInteger.ONE;
         
         for(int i = n ; i >= 1 ; i--) {
-            iResult = iResult.multiply(getIntToBigInteger(i));
+            iResult = iResult.multiply(BigInteger.valueOf(i));
         }
         
         System.out.println(iResult);
-    }
-    
-    public static BigInteger getIntToBigInteger(int n) {
-        return BigInteger.valueOf(Long.valueOf(n));
     }
 }
 
@@ -48,3 +44,4 @@ public class Solution {
         bufferedReader.close();
     }
 }
+
