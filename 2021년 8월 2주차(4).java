@@ -1,3 +1,7 @@
+/*
+ * HackerRank - Migratory Birds
+ */
+
 import java.io.*;
 import java.math.*;
 import java.security.*;
