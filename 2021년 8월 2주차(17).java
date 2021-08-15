@@ -1,8 +1,8 @@
-import java.io.*;
 /*
- * HackerRank - Non-Divisible Subset
+ * HackerRank - Non-Divisible Subset (Algorithms > Implementation)
  */
- 
+
+import java.io.*; 
 import java.math.*;
 import java.security.*;
 import java.text.*;
