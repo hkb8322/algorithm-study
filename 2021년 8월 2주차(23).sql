@@ -1,5 +1,5 @@
 /*
- * HackerRank - Let's Echo (SQL > Advanced Select > New Companies)
+ * HackerRank - New Companies (SQL > Advanced Select)
  */
 
 
